@@ -1,0 +1,153 @@
+
+/* service-section */
+
+.service-section {
+    margin: 80px 0;
+}
+.service-area{}
+.service-area h5 {
+    font-size: 19px;
+    color: #4623f0;
+    font-weight: 500;
+}
+.service-area h2 {
+    font-weight: 600;
+    font-size: 36px;
+    padding-right: 86px;
+    margin-top: 14px;
+    margin-bottom: 31px;
+}
+.service-area p {
+    padding-right: 85px;
+}
+
+
+.service-area .img{
+    display: flex;
+    width: 640px;
+    flex-wrap: wrap;
+}
+.service-area .img img {
+    width: 213px;
+    opacity: .5;
+    border: 1px solid #ddd;
+    transition: .5s;
+    background: #fff;
+    padding: 35px 49px;
+    box-sizing: border-box;
+    margin-bottom: -1px;
+    margin-left: -1px;
+}
+.service-area .img img:hover{
+    background: rgb(245, 243, 243);
+    opacity: 1;
+}
+
+/* blog-section */
+
+.blog-section{}
+.blog-header {
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.blog-header h5{
+    font-size: 19px;
+    color: #4623f0;
+    font-weight: 500;
+}
+.blog-header h2{
+    font-weight: 600;
+    font-size: 36px;
+    
+    margin-top: 14px;
+    margin-bottom: 31px;
+}
+.blog-header p{}
+
+/* card-section */
+
+.card-section{
+    margin-bottom: 80px;
+}
+.card-item{}
+.card-item .card-img{
+    position: relative;
+}
+.card-item .card-img img {
+    max-width: 100%;
+    border-radius: 5px;
+} 
+.card-item .img-btn a {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 19px 11px 52px;
+    background: rgb(18, 87, 243);
+    color: white;
+    border-radius: 31px;
+    top: 180px;
+    left: 153px;
+}
+.card-item .img-btn img {
+    position: absolute;
+    max-width: 100%;
+    width: 40px;
+    border-radius: 50%;
+    top: 184px;
+    left: 160px;
+}
+.card-item h4 {
+    margin: 20px 0;
+}
+.card-item p{}
+
+/* footer-section */
+
+.footer-section{
+    background: #081828;
+}
+.footer-area {
+    padding: 65px 0;
+}
+.footer-logo {
+    padding-right: 20px;
+}
+.footer-logo img {
+    width: 180px;
+}
+.footer-logo p {
+    color: rgb(240, 236, 236);
+    margin: 20px 0;
+}
+.footer-logo span{}
+.footer-logo span a {
+    color: white;
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.footer-logo span a i{}
+
+.footer-about{}
+.footer-item{
+    width: 33%;
+}
+.footer-item h5 {
+    color: white;
+    border-left: 2px solid rgb(78, 78, 248);
+    padding-left: 9px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.footer-item ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 2.4;
+}
+.footer-item ul li{}
+.footer-item ul li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 17px;
+    margin-left: 3px;
+}
